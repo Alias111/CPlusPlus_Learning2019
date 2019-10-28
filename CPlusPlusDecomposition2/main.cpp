@@ -60,7 +60,7 @@ int main()
 	weeklySales = getWeeklySales();
 
 	if (weeklySales == 0) return 0;
-	
+
 		getWeeklyPay();
 		calcSalaryCommission(weeklySales);
 		twentyTwentyCom(weeklySales);
