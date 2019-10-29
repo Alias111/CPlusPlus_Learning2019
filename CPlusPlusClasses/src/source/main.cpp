@@ -3,8 +3,10 @@
 
 int main()
 {
-	speak();
-	jump();
+	Cat cat1;
+
+	cat1.jump();
+	cat1.speak();
 
 
 	return 0;
