@@ -170,15 +170,17 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/josemartinez/Documents/CPlusPlusOct2019/CPlusPlusClasses/src/header_H/Cat.h">
+		<Unit filename="/Users/josemartinez/Documents/CPlusPlusOct2019/CPlusPlusClasses/CPlusPlusConstructorsDestructors/src/sources/ConstructDestructMain.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/josemartinez/Documents/CPlusPlusOct2019/CPlusPlusClasses/DataMembers/src/header_H/Cat.h">
 			<Option target="CPlusPlusClasses"/>
 		</Unit>
-		<Unit filename="/Users/josemartinez/Documents/CPlusPlusOct2019/CPlusPlusClasses/src/source/Cat.cpp">
+		<Unit filename="/Users/josemartinez/Documents/CPlusPlusOct2019/CPlusPlusClasses/DataMembers/src/source/Cat.cpp">
 			<Option target="Cat"/>
 			<Option target="CPlusPlusClasses"/>
 		</Unit>
-		<Unit filename="/Users/josemartinez/Documents/CPlusPlusOct2019/CPlusPlusClasses/src/source/main.cpp">
-			<Option target="main"/>
+		<Unit filename="/Users/josemartinez/Documents/CPlusPlusOct2019/CPlusPlusClasses/DataMembers/src/source/main.cpp">
 			<Option target="CPlusPlusClasses"/>
 		</Unit>
 		<Unit filename="/Users/josemartinez/Documents/CPlusPlusOct2019/CPlusPlusClasses/CMakeLists.txt">
