@@ -1,4 +1,7 @@
 # Created by .ignore support plugin (hsz.mobi)
+# Cmake Build Debug
+cmake-build-debug
+
 ### CMake template
 CMakeLists.txt.user
 CMakeCache.txt

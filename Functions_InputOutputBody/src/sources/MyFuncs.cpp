@@ -27,15 +27,10 @@ public:
 	}
 
 	// * Making a reference to int j
-	static void addTwo(int& j) {
-			auto result = j += 2;
-			getSome("3.) Adding Two: -> ")
-			std::cout << "[ " << result << " ]" << std::endl;
+	static void addTwo(int &j) {
+		auto result = j += 2;
+		getSome("3.) Adding Two: -> ")
+		std::cout << "[ " << result << " ]" << std::endl;
 	}
-
-
 };
-
-
-
 
