@@ -6,7 +6,7 @@
 
 int main() {
 
-	printAlias();
+	macros::printAlias();
 
 	std::cin.get();
 }

@@ -1,7 +1,8 @@
 #include <iostream>
 #include "../headers_H/Print_Alias111.h"
 
-void printAlias() {
+// ? Setting the scope
+void macros::printAlias() {
 	auto alias = "\nAlias111";
 	Log(alias)
 }
