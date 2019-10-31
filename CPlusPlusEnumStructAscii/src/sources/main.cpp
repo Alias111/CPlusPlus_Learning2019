@@ -20,13 +20,21 @@ int main() {
 	auto red = static_cast<int>(ClassColor::red);
 	Log(red)// Console output '97'
 
-	// * STRUCT EXAMPLE
 	auto str2 = "_______________ STRUCT EXAMPLE _______________\n"
 			 "{ Structs: Aggregate data-type or way"
 			 " to package related vars together }";
-
 	Log2(str2)
+	// Creating Cats
+	Cat punanee { 8, "Black & White", 5 };
+	Cat killaCat = { 5, "Caliente-Pelo", 3 };
 
+	Log(punanee.hairColor)
+	Log(killaCat.hairLength)
+
+	punanee.hairLength = 10;// Changing the cats hair length
+	killaCat = { 6, "Caliente-Pelo", 7  };// Changing the hair length & fatness
+
+	Log(killaCat.hairLength)
 
 	std::cin.get();
 }
