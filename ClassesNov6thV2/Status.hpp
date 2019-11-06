@@ -1,8 +1,3 @@
-//
-// Created by Jose Martinez on 11/6/19.
-//
+#pragma once
 
-#ifndef CLASSESNOV6THV2_STATUS_HPP
-#define CLASSESNOV6THV2_STATUS_HPP
-
-#endif //CLASSESNOV6THV2_STATUS_HPP
+enum Seasons { summer, spring, fall, winter };

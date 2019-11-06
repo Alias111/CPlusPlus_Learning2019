@@ -19,22 +19,22 @@ public:
 	Person(std::string first, std::string last, int arbitrary)
 			: firstName(std::move(first)), lastName(std::move(last)), arbitraryNumber(arbitrary) {
 
-		std::string const msg = "\n*.) => OVERLOADED CONSTRUCTOR CREATING <=\nOBJ INSTANCE: ";
+		std::string const msg = "\n*.) => <<OVERLOADED CONSTRUCTOR CREATING>> <=\nOBJ INSTANCE: ";
 		std::cout << msg << "[" << getName() << "]" << std::endl;
 	}
 
 	Person() : arbitraryNumber(0) {
 
-		std::string msg = "\n*.) => CONSTRUCTING FROM DEFAULT CONSTRUCTOR <=";
+		std::string msg = "\n*.) => <<CONSTRUCTING FROM DEFAULT CONSTRUCTOR>> <=";
 		std::cout << msg << firstName << lastName << std::endl;
 	}
 
 	~Person() {
 		std::string space = " ";
-		std::string msg = "\n*.) => DECONSTRUCTING & DESTROYING ERRYTHING! <=\n";
+		std::string msg = "\n*.) => <<DECONSTRUCTING & DESTROYING ERRYTHING!>> <=\n";
 
 		std::cout << msg << firstName << space << lastName;
-		Log(" -> => Returned OBJECT INSTANCED DESTROYED <=\n\n")
+		Log(" -> => <<Returned OBJECT INSTANCED DESTROYED>> <=\n\n")
 	}
 
 	std::string getName() {
