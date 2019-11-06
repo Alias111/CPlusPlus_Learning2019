@@ -1,0 +1,8 @@
+//
+// Created by Jose Martinez on 11/6/19.
+//
+
+#ifndef CLASSESNOV6THV2_PERSON_HPP
+#define CLASSESNOV6THV2_PERSON_HPP
+
+#endif //CLASSESNOV6THV2_PERSON_HPP
