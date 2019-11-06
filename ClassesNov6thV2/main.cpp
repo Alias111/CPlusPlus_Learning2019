@@ -17,7 +17,6 @@ int main ()
 
 	Log(msg)
 	string name = msg2 + p1.getName();
-	Log(name)
 
 	Log("\n--------------------- Inheritance --------------------------")
 
@@ -34,5 +33,5 @@ int main ()
 	Log(msg)
 	string name3 = msg2 + katie.getName();
 
-	return 0;
+	std::cin.get();
 }
