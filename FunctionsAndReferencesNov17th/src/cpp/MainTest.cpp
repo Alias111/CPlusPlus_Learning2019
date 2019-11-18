@@ -1,5 +1,4 @@
 #include <utility>
-
 #include "../headers/Helpers.h"
 using std::cout;
 using std::endl;
@@ -43,11 +42,11 @@ int main()
 // ? This function will change the "name" variable
 //************************************************
 void ChangeNameByVal(string name) {// Will create a copy
-	cout << name << endl;
+	cout << "IM JUST A COPY-CAT:==> " << name << endl;
 }
 void ChangeNameByRef(string &aNameChange, string name) {
 	aNameChange = std::move(name);
-	cout << aNameChange << endl;
+	cout << "GOT MOVED BY AN rValue:==>" << aNameChange << endl;
 }
 
 
